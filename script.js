@@ -90,3 +90,5 @@ document.getElementById("next-player").onclick = () => {
   currentPlayerIndex = (currentPlayerIndex + 1) % players.length;
   showTurn();
 };
+
+
