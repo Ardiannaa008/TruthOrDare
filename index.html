@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrythOrDare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="setup-screen">
+    <h1>👯‍♀️ Add Players</h1>
+    <input type="text" id="player-name" placeholder="Enter a name">
+    <button id="add-player">Add Player</button>
+    <ul id="player-list"></ul>
+    <button id="start-game">Start Game</button>
+  </div>
+
+  <div id="game-screen" style="display: none;">
+    <h2 id="turn-header">It's YOUR turn!</h2>
+    <div id="choice-screen">
+      <button id="truth-btn">Truth</button>
+      <button id="dare-btn">Dare</button>
+    </div>
+
+    <div id="spinner-screen" style="display: none;">
+      <div id="spinner">🎡</div>
+      <button id="spin-btn">🎯 Spin</button>
+    </div>
+
+    <div id="result-screen" style="display: none;">
+      <p id="result-text"></p>
+      <button id="next-player">Next Player</button>
+    </div>
+  </div>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

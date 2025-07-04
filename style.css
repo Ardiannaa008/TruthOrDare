@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow: hidden;       /* disable scrolling */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+body {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full viewport height */
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(2, 2, 5, 1) 100%);
+  font-family: sans-serif;
+}
+
+#container {
+  width: 300px;
+  max-width: 90vw; /* for small screens */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+}
+
+
+input, button {
+  padding: 10px;
+  margin: 15px;
+  font-size: 1em;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+ul {
+  list-style: none;
+  padding:0;
+}
+
+#result-text {
+  margin: 10px;
+}
+
+#spinner {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  border: 10px solid #ff69b4;
+  border-radius: 50%;
+  border-top: 10px solid #fff;
+  animation: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1440deg); }
+}
+
