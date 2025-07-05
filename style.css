@@ -77,3 +77,16 @@ ul {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(1440deg); }
 }
+
+
+#game-screen {
+  display: none;
+}
+
+#spinner-screen {
+  display: none;
+}
+
+#result-screen {
+  display: none;
+}
