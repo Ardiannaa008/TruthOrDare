@@ -3,15 +3,47 @@ let currentPlayerIndex = 0;
 let selectedType = ""; // "truth" or "dare"
 
 const truths = [
-  "Who’s your secret crush?",
-  "What’s something embarrassing you’ve done?",
+  "What’s the most embarrassing thing you’ve ever done?",
+
+  "Who was your first crush?",
+
+  "Have you ever lied to get out of trouble? What was the lie?",
+
+  "What’s something you’re glad your parents don’t know about you?",
+
   "What’s your weirdest habit?",
+
+  "If you could date any fictional character, who would it be?",
+
+  "Have you ever stalked someone online?",
+
+  "What's the most childish thing you still do?",
+
+  "What's the worst gift you’ve ever received?",
+
+  "Who in this group would you most want to switch lives with for a day?",
 ];
 
 const dares = [
-  "Do 10 squats right now!",
-  "Text your crush ‘hey 😏’",
-  "Speak in robot voice for 2 minutes",
+  "Speak in a fake accent until your next turn.",
+
+  "Text someone ‘I know what you did 😏’ and don’t explain.",
+
+  "Try to lick your elbow.",
+
+  "Do your best impression of a baby learning to walk.",
+
+  "Say the alphabet backward while hopping on one foot.",
+
+  "Let someone in the group write something on your forehead with a marker.",
+
+  "Eat a spoonful of mustard, ketchup, or something random from the kitchen.",
+
+  "Show your last five search terms or the last five photos in your gallery.",
+
+  "Let someone else control your phone for one minute.",
+
+  "Do a dramatic reenactment of a breakup scene.",
 ];
 
 // DOM elements
