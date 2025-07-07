@@ -1,6 +1,6 @@
 const players = [];
 let currentPlayerIndex = 0;
-let selectedType = ""; // "truth" or "dare"
+let selectedType = ""; 
 
 const truths = [
   "What’s the most embarrassing thing you’ve ever done?",
